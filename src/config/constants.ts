@@ -1,7 +1,7 @@
 
 
-export const URL="http://localhost:2002"; 
-// export const URL="https://api.takeoffbusinessnetwork.com";
+// export const URL="http://localhost:2002"; 
+export const URL="https://api.takeoffbusinessnetwork.com";
 
 
  export const createAxiosConfig = (isFileUpload = false) => ({
