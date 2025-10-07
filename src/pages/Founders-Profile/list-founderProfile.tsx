@@ -204,7 +204,7 @@ const ListFounderProfile = () => {
   };
 
   const handleAddNew = () => {
-    navigate("/admin/add-founder-profile");
+    navigate("/add-founderProfile");
   };
 
   if (loading && profiles.length === 0) {

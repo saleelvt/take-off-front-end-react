@@ -109,7 +109,7 @@ export default function AdminDashboard() {
 
   if (loading && !data) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-cyan-900/20 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-slate-200 via-cyan-200/20 to-teal-300 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="relative w-20 h-20">
             <div className="absolute inset-0 border-4 border-cyan-900/50 rounded-full"></div>

@@ -164,7 +164,7 @@ const ListBanner = () => {
   };
 
   const handleAddNew = () => {
-    navigate("/admin/add-banner");
+    navigate("/add-banner");
   };
 
   if (loading && banners.length === 0) {

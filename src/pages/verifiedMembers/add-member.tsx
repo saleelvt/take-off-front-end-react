@@ -132,7 +132,7 @@ export default function AddVerifiedMember() {
   };
 
   const handleCancel = () => {
-    navigate("/admin/verified-members");
+    navigate("/");
   };
 
   return (

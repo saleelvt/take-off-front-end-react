@@ -97,7 +97,7 @@ export default function GetVerifiedMember() {
   };
 
   const handleAddNew = () => {
-    navigate("/admin/add-verified-member");
+    navigate("/add-membe");
   };
 
   if (loading && members.length === 0) {
